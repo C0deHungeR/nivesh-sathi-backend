@@ -18,7 +18,7 @@ public class MlService {
 
     public RecommendationResponse getRecommendation(MlRequest request) {
 
-        String url = "http://localhost:8001/predict";
+        String url = "https://nivesh-sathi-ml-service-1.onrender.com/predict";
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
